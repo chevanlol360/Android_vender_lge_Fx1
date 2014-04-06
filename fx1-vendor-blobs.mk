@@ -164,3 +164,4 @@ PRODUCT_COPY_FILES += \
   vendor/lge/fx1/proprietary/lib/hw/sensors.msm89601.so:system/lib/hw/sensors.msm89601.so \
   vendor/lge/fx1/proprietary/lib/hw/camera.msm89601.so:system/lib/hw/camera.msm89601.so \
   vendor/lge/fx1/proprietary/lib/hw/gps.default1.so:system/lib/hw/gps.default1.so \
+  vendor/lge/fx1/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
