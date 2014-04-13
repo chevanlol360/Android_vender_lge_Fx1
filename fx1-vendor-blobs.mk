@@ -72,8 +72,6 @@ PRODUCT_COPY_FILES += \
   vendor/lge/fx1/proprietary/lib/libaudioparameter.so:system/lib/libaudioparameter.so \
   vendor/lge/fx1/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
   vendor/lge/fx1/proprietary/lib/libbinder.so:system/lib/libbinder.so \
-  vendor/lge/fx1/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
-  vendor/lge/fx1/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
   vendor/lge/fx1/proprietary/lib/libdiag.so:system/lib/libdiag.so \
   vendor/lge/fx1/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
   vendor/lge/fx1/proprietary/lib/libdss.so:system/lib/libdss.so \
@@ -97,6 +95,22 @@ PRODUCT_COPY_FILES += \
   vendor/lge/fx1/proprietary/lib/libmmcamera_interface2.so:system/lib/libmmcamera_interface2.so \
   vendor/lge/fx1/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
   vendor/lge/fx1/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
+  vendor/lge/fx1/proprietary/lib/camera.msm8960.so:system/lib/camera.msm8960.so \
+  vendor/lge/fx1/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+  vendor/lge/fx1/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+  vendor/lge/fx1/proprietary/lib/libchromatix_imx111_preview.so:system/lib/libchromatix_imx111_preview.so \
+  vendor/lge/fx1/proprietary/lib/libchromatix_imx111_video.so:system/lib/libchromatix_imx111_video.so \
+  vendor/lge/fx1/proprietary/lib/libchromatix_imx111_video_default.so:system/lib/libchromatix_imx111_video_default.so \
+  vendor/lge/fx1/proprietary/lib/libchromatix_imx111_zsl.so:system/lib/libchromatix_imx111_zsl.so \
+  vendor/lge/fx1/proprietary/lib/libchromatix_imx119_preview.so:system/lib/libchromatix_imx119_preview.so \
+  vendor/lge/fx1/proprietary/lib/libchromatix_imx119_video.so:system/lib/libchromatix_imx119_video.so \
+  vendor/lge/fx1/proprietary/lib/libchromatix_imx119_vt.so:system/lib/libchromatix_imx119_vt.so \
+  vendor/lge/fx1/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
+  vendor/lge/fx1/proprietary/lib/libHDR.so:system/lib/libHDR.so \
+  vendor/lge/fx1/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+  vendor/lge/fx1/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+  vendor/lge/fx1/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+  vendor/lge/fx1/proprietary/lib/libOlaLGECameraJNI.so:system/lib/libOlaLGECameraJNI.so \
   vendor/lge/fx1/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/lge/fx1/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/lge/fx1/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
@@ -108,7 +122,6 @@ PRODUCT_COPY_FILES += \
   vendor/lge/fx1/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
   vendor/lge/fx1/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/lge/fx1/proprietary/lib/libnetutils.so:system/lib/libnetutils.so \
-  vendor/lge/fx1/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
   vendor/lge/fx1/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
   vendor/lge/fx1/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
   vendor/lge/fx1/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
@@ -164,4 +177,9 @@ PRODUCT_COPY_FILES += \
   vendor/lge/fx1/proprietary/lib/hw/sensors.msm89601.so:system/lib/hw/sensors.msm89601.so \
   vendor/lge/fx1/proprietary/lib/hw/camera.msm89601.so:system/lib/hw/camera.msm89601.so \
   vendor/lge/fx1/proprietary/lib/hw/gps.default1.so:system/lib/hw/gps.default1.so \
-  vendor/lge/fx1/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so
+  vendor/lge/fx1/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+  vendor/lge/fx1/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
+  vendor/lge/fx1/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+  vendor/lge/fx1/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+  vendor/lge/fx1/proprietary/lib/libOlaFaceDetector.so:system/lib/libOlaFaceDetector.so \
+  vendor/lge/fx1/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
